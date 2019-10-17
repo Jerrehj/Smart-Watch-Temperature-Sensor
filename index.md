@@ -1,6 +1,6 @@
 <html>
   <body>
-<h1> Hello, welcome to the CENG 320 smart watch bio<h1>
+<h1> Hello, welcome to the CENG 320 smart watch blog<h1>
 
 <h1>Week 14 hardware (Dec. 10/12)</h1>
 <body>
@@ -32,7 +32,7 @@
 </body>
 <h1>Week 7 hardware (Oct. 15/17)</h1>
 <body>
-<b>(not yet completed)<b>
+<b>Hello. As we hit week 7 of the temperature sensor build, I’d like to keep you up to speed on what’s happening. For starters the week 7 PCB milestone has been completed to see the design please see below. In terms of financial status all parts have been purchased with the exception of a mini HDMI adapter but fortunately one has been purchased and is arriving on time. Its possible revisions may need to be done with the PCB board as things may change but for now it is completed.<b><br><br><b>Breadboard:</b><br>https://raw.githubusercontent.com/Jerrehj/Smart-Watch-Temperature-Sensor/master/CENG%20317%20Design%5B3850%5D_bb.png<br><b>Schematic:</b><br>https://raw.githubusercontent.com/Jerrehj/Smart-Watch-Temperature-Sensor/master/CENG%20317%20Design%5B3850%5D_schem.png<br><b>PCB:</b><br>https://raw.githubusercontent.com/Jerrehj/Smart-Watch-Temperature-Sensor/master/CENG%20317%20Design%5B3850%5D_pcb.png<br><b>.fzz file:</b><br>https://github.com/Jerrehj/Smart-Watch-Temperature-Sensor/blob/master/CENG%20317%20Design%5B3850%5D.fzz
 </body>
 <h1>Week 6 hardware (Oct. 8/10)</h1>
 <body>
@@ -42,9 +42,9 @@
 <body>
   <p>
   <b>TMP006 Tempreture sensor:</b><br>
-https://github.com/Jerrehj/Smart-Watch-Temperature-Sensor/blob/master/Order%201.PNG
+https://raw.githubusercontent.com/Jerrehj/Smart-Watch-Temperature-Sensor/master/Order%201.PNG
   <br> <br> <b>Raspberry pi zero w:</b> <br>
-https://github.com/Jerrehj/Smart-Watch-Temperature-Sensor/blob/master/Order%202.PNG
+https://raw.githubusercontent.com/Jerrehj/Smart-Watch-Temperature-Sensor/master/Order%202.PNG
   </p>
 </body>
 <h1>Week 4 hardware (Sept. 24/26)</h1>
