@@ -40,7 +40,7 @@
 </body>
 <h1>Week 5 hardware (Oct. 1/3)</h1>
 <body>
-
+https://github.com/Jerrehj/Smart-Watch-Temperature-Sensor/blob/master/Order%201.PNG
 </body>
 <h1>Week 4 hardware (Sept. 24/26)</h1>
 <body>
