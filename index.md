@@ -36,7 +36,7 @@
 </body>
 <h1>Week 6 hardware (Oct. 8/10)</h1>
 <body>
-<b>(not yet completed)<b>
+<b> Wears have been presented as of 10/10/2019 <b>
 </body>
 <h1>Week 5 hardware (Oct. 1/3)</h1>
 <body>
