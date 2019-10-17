@@ -40,7 +40,12 @@
 </body>
 <h1>Week 5 hardware (Oct. 1/3)</h1>
 <body>
+  <p>
+  <b>TMP006 Tempreture sensor:</b><br>
 https://github.com/Jerrehj/Smart-Watch-Temperature-Sensor/blob/master/Order%201.PNG
+  <br> <br> <b>Raspberry pi zero w:</b> <br>
+https://github.com/Jerrehj/Smart-Watch-Temperature-Sensor/blob/master/Order%202.PNG
+  </p>
 </body>
 <h1>Week 4 hardware (Sept. 24/26)</h1>
 <body>
