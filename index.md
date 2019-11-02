@@ -28,7 +28,7 @@
 </body>
 <h1>Week 8 hardware (Oct. 29/31)</h1>
 <body>
-<b>(not yet completed)<b>
+<b>Hello. we've hit week 8 of the temperature sensor build. To keep you up to speed, the board is being printed and sodered. I've also recently had to purchase a new charger for the raspberry pi zero and will update the budget to reflect that. other than whats listed above the project on on track.<b>
 </body>
 <h1>Week 7 hardware (Oct. 15/17)</h1>
 <body>
