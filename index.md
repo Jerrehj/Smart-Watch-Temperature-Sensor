@@ -24,7 +24,7 @@
 </body>
 <h1>Week 9 hardware (Nov. 5/7)</h1>
 <body>
-<b>(not yet completed)<b>
+<b>Hello, the updates for week 9 are as follows: due to a lost PCB, a new one had to be made pushing back the progress of the temperature sensor. I will be taking extra effort to make up for lost time by attending additional sessions as the next weeks milestone requires the PCB to be able to power up. the replacement PCB requires no additional cost and all other parts have been completed. In terms of financial situation, there are no changes.<b>
 </body>
 <h1>Week 8 hardware (Oct. 29/31)</h1>
 <body>
