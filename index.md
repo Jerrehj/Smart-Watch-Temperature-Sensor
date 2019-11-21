@@ -20,7 +20,8 @@
 </body>
 <h1>Week 10 hardware (Nov. 12/14)</h1>
 <body>
-<b>(not yet completed)<b>
+<b>Current progress of the TMP006 temperture snesor enclosed below)<b>
+  <b>Progress Report:</b><br>https://github.com/Jerrehj/Smart-Watch-Temperature-Sensor/blob/master/CENG%20317%20Progress%20report.docx
 </body>
 <h1>Week 9 hardware (Nov. 5/7)</h1>
 <body>
