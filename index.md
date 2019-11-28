@@ -12,7 +12,10 @@
 </body>
 <h1>Week 12 hardware (Nov. 26/28)</h1>
 <body>
-<b>(not yet completed)<b>
+<b>This week we are presenting our projects to pur peers and to our instructor, please see my presentation below<b><br>
+  TMP006 Powerpoint presentaion:<br>
+  https://github.com/Jerrehj/Smart-Watch-Temperature-Sensor/blob/master/Tmp006%20Temperature%20sensor.pptx <br>
+  No changes have been made to this projects budget, schedule or hardware design
 </body>
 <h1>Week 11 hardware (Nov. 19/21)</h1>
 <body>
