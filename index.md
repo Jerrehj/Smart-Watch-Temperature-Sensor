@@ -16,7 +16,9 @@
 </body>
 <h1>Week 11 hardware (Nov. 19/21)</h1>
 <body>
-<b>(not yet completed)<b>
+<b>hello this week will be the Enclosure design that you can see below"<b>
+<b>Enclosure design:</b><br>https://raw.githubusercontent.com/Jerrehj/Smart-Watch-Temperature-Sensor/master/enclosure.png<br>
+<b>No change has been made to budget, schedule or other progress.</b>
 </body>
 <h1>Week 10 hardware (Nov. 12/14)</h1>
 <body>
