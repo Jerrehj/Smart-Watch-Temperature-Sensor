@@ -6,9 +6,10 @@
   
   Parts needed 
   - x4 Male-male connectors
-  - x6-8 female socket headers 
+  - x1 36-pin 0.1" female header
+  - x1 Short feather 12-pin male header
   - x1 TMP006 tempreature breakout sensor
-  - x1 Raspberry pi zero w
+  - x1 Raspberry pi zero w starter kit
   - x1 PCB
 
 <h2><b>Step 2: Solderring and Assembly<b><h2>
