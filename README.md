@@ -1,4 +1,4 @@
-# Smart-Watch-Temperature-Sensor
+# Smart-Watch-Temperature-Sensor#
 
 
 
@@ -145,9 +145,14 @@ A case will require some designing since it is difficult to find raspberry pi ze
 - Click "closed" as an answer to the "Open or closed box?" question
 - Click "Download Box Plans"
 
-Make sure you click inside to the question "Are these inside or outside dimensions?" so it will get the dimensions of the system and not include it in the design of the enclosure. the unit of measurement should be mm 
+NOTE: Make sure you click inside to the question "Are these inside or outside dimensions?" so it will get the dimensions of the system and not include it in the design of the enclosure. the unit of measurement should be mm 
 
-next edit some holes like below do you can put an sd card and USB cable in the io ports
+- next edit some holes like below do you can put an sd card and USB cable in the io ports
 {case schematic}
+- Print your case 
+- Assemble and glue sides it should look like the following:
+{completed case}
 
 <h4><b>Step 6: Production Testing <b><h4>  
+
+A successful production test would include the monitoering of soldering and PCB creation since theese we prone to error during the begining of the porject
