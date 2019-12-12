@@ -1,4 +1,4 @@
-# Smart-Watch-Temperature-Sensor#
+# Smart-Watch-Temperature-Sensor
 
 
 
@@ -36,7 +36,7 @@ see pinout out below
 
 {pinout}
 {completed unit test}
-<h4><b>Step 4: Getting Tempreature <b><h4>
+<h4><b>Step 4: Getting Tempreature<b><h4>
   
 to get temperature your going to need your sd card. download rasbian form the raspberry pi website{insert site here}, unzip and move the files onto your pi you'll want to download a few services on your you laptop if you are using one (the method used in these instructions) theses include: 
 - Bonjour print services
@@ -44,7 +44,7 @@ to get temperature your going to need your sd card. download rasbian form the ra
 - 7zip
 - Notepad++
 
-<h4>To setup these services to use a laptop<h4>
+<h4><b>To setup these services to use a laptop<b><h4>
 
 - Open "config.txt" file with Notepad++
 - Scroll down to the bottom
@@ -58,7 +58,7 @@ to get temperature your going to need your sd card. download rasbian form the ra
 - Eject the MicroSD Card and place it on your Raspberry Pi
 
 
-<h4>Next You Should Start You Pi<h4> 
+<h4><b>Next You Should Start You Pi<b><h4> 
 
 - Connect your Raspberry Pi using a MicroUSB cable connected to the port marked "USB".
 - Open up "Putty"
@@ -66,7 +66,7 @@ to get temperature your going to need your sd card. download rasbian form the ra
 - Use your credentials pass: "raspberry"
 
 
-<h4>Then Connect It To WIFI<h4>
+<h4><b>Then Connect It To WIFI<b><h4>
 
 - Type "sudo nano /etc/wpa_supplicant/wpa_supplicant.conf" Press "Enter" then go to the bottom of the text editor.
 - Type in the following 
@@ -92,7 +92,7 @@ You need to copy the following libraries out of the library bundle into your sd 
 - adafruit_tmp006.mpy
 - adafruit_bus_device
 
-h4>Enabling i2c and <h4>
+<h4><b>Enabling i2c and SPi<b><h4>
   
   Type the following commands: 
 
@@ -101,10 +101,10 @@ h4>Enabling i2c and <h4>
 
 once done you can test your i2c address by typing "sudo i2cdetect -y 0"
 
-<h4>Sensor Code<h4>
+<h4><b>Sensor Code<b><h4>
   this is the code you will be detecting actual temperature with, you may name them whatever you like 
   
-<h4>"".py<h4>
+<h4><b>"".py<b><h4>
 import board
 import busio
 import adafruit_tmp006
@@ -112,7 +112,7 @@ import adafruit_tmp006
 i2c = busio.I2C(board.SCL, board.SDA)
 sensor = adafruit_tmp006.TMP006(i2c) 
 
-<h4>"".py<h4>
+<h4><b>"".py<b><h4>
 import time
 import board
 import busio
@@ -155,4 +155,4 @@ NOTE: Make sure you click inside to the question "Are these inside or outside di
 
 <h4><b>Step 6: Production Testing <b><h4>  
 
-A successful production test would include the monitoering of soldering and PCB creation since theese we prone to error during the begining of the porject
+A successful production test would include the monitoring of soldering and PCB creation since these we prone to error during the beginning of the project. A unit test within the production test may also be necessary due to the chance of some sensors being defective on arrival 
