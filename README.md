@@ -102,7 +102,7 @@ h4>Enabling i2c and <h4>
 once done you can test you i2c address by typing "sudo i2cdetect -y 0"
 
 <h4>Sensor Code<h4>
-  this is the code you will be detecting acutal tempreature with 
+  this is the code you will be detecting acutal tempreature with, you may name them whatever you like 
   
 <h4>"".py<h4>
 import board
@@ -135,4 +135,19 @@ while True:
     time.sleep(5.0)    
     
 <h4><b>Step 5: Building Your Case<b><h4> 
+  
+A case will require some designing since it is difficult to find raspberry pi zero w case that have side walls so following the instructions below will help with with that 
+
+- go to Makercase.com
+- Enter the dimensions of the system (Sensor,PCB,Pi)
+- Height: 35, Width: 35, Depth 65
+- Choose finger edge joints size 12 point design
+- Click "closed" as an answer to the "Open or closed box?" question
+- Click "Download Box Plans"
+
+Make sure you click inside to the question "Are these inside or outside dimensions?" so it will get the dimesnions onf the system and not include it in the enclosures design. the unit of measurement should be mm 
+
+next edit some holes like below do you can put an sd card and usb cable in the io ports
+{case schematic}
+
 <h4><b>Step 6: Production Testing <b><h4>  
