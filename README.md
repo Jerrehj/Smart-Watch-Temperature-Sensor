@@ -42,7 +42,7 @@ next a unit test you'll need four male-male connectors of different colours whic
 - PI SCL-> Sensor SCL
 see pinout out below  
 
-[completed unit test](Read.meimages/IMG_20191211_180951.jpg)
+![completed unit test](Read.meimages/IMG_20191211_180951.jpg)
 <h4><b>Step 4: Getting Tempreature<b><h4>
   
 to get temperature your going to need your sd card. download rasbian form the raspberry pi website{insert site here}, unzip and move the files onto your pi you'll want to download a few services on your you laptop if you are using one (the method used in these instructions) theses include: 
@@ -155,7 +155,7 @@ A case will require some designing since it is difficult to find raspberry pi ze
 NOTE: Make sure you click inside to the question "Are these inside or outside dimensions?" so it will get the dimensions of the system and not include it in the design of the enclosure. the unit of measurement should be mm 
 
 - next edit some holes like below do you can put an sd card and USB cable in the io ports
-[case schematic](Enclosure/enclosure.png)
+![case schematic](Enclosure/enclosure.png)
 - Print your case 
 - Assemble and glue sides it should look like the following:
 
