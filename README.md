@@ -109,7 +109,7 @@ You need to copy the following libraries out of the library bundle into your sd 
 once done you can test your i2c address by typing "sudo i2cdetect -y 0"
 
 <h4><b>Sensor Code<b><h4>
-  this is the code you will be detecting actual temperature with, you may name them whatever you like 
+This is the code you will be detecting actual temperature with, you may name them whatever you like 
   
 <h4><b>"".py<b><h4>
 import board
