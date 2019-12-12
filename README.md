@@ -1,6 +1,6 @@
 # Smart-Watch-Temperature-Sensor
 
-![TMP006 sensor]C:\Users\solar\OneDrive\Documents\CENG 317\final images/)
+![TMP006 sensor](Read.meimages/IMG_20191127_205752.jpg)
 
 <h4><b>Step 1: Acquiring Parts<b><h4>
   
