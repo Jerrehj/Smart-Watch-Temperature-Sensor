@@ -148,11 +148,11 @@ A case will require some designing since it is difficult to find raspberry pi ze
 NOTE: Make sure you click inside to the question "Are these inside or outside dimensions?" so it will get the dimensions of the system and not include it in the design of the enclosure. the unit of measurement should be mm 
 
 - next edit some holes like below do you can put an sd card and USB cable in the io ports
-{case schematic}
+[case schematic](Read.meimages/.jpg)
 - Print your case 
 - Assemble and glue sides it should look like the following:
 
-![completed case]C:\Users\solar\OneDrive\Documents\CENG 317\final images/IMG_20191211_145556.jpg)
+![completed case](Enclosure/enclosure.png)
 
 <h4><b>Step 6: Production Testing <b><h4>  
 
