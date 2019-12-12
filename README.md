@@ -47,29 +47,92 @@ to get tempreature your going to need your sd card. download rasbian form the ra
 <h4>To setup these services to use a laptop<h4>
 
 - Open "config.txt" file with Notepad++
-
 - Scroll all the way down to the bottom
-
 - Type "dtoverlay=dwc2" in the last line and then add an extra line after that
-
 - Save and close the file
-
 - Open "cmdline.txt" file with Notepad++
-
 - Look for the section after "rootwait"
-
 - Type "modules-load=dwc2,g_ether" in this section
-
 - Save and close the file
-
 - Create a new file called "ssh"
-
 - Eject the MicroSD Card and place it on your Raspberry Pi
+
+
+<h4>Next You Should Start You Pi<h4> 
+
+- Connect your Raspberry Pi using a MicroUSB cable connected to the port marked "USB".
+- Open up "Putty"
+- Type "pi@raspberrypi.local" in the IP Address box
+- Use your credentials pass: "raspberry"
+
+
+<h4>Then Connect It To WIFI<h4>
+
+- Type "sudo nano /etc/wpa_supplicant/wpa_supplicant.conf" Press "Enter" then go to the bottom of the text editor.
+- Type in the following 
+
+"network={
+
+ssid="YOURNETWORKNAME"
+
+psk="YOURNETWORKPASSWORD"
+
+}"
+
+- Press "Ctrl X"
+- Press "Y"
+- Press "Enter"
+- Type "sudo wpa_cli reconfigure"
 
 <h4>Getting Adafruit Libraries <h4>
 The libraries nessary for this are located at https://circuitpython.org/libraries
 
+You need to copy the following libraries out of the library bundle into your sd card:
+
+- adafruit_tmp006.mpy
+- adafruit_bus_device
+
 h4>Enabling i2c and <h4>
   
+  Type the following commands: 
+
+- sudo apt-get install python-smbus
+- sudo apt-get install i2c-tools
+
+once done you can test you i2c address by typing "sudo i2cdetect -y 0"
+
+<h4>Sensor Code<h4>
+  this is the code you will be detecting acutal tempreature with 
+  
+<h4>"".py<h4>
+import board
+import busio
+import adafruit_tmp006
+ 
+i2c = busio.I2C(board.SCL, board.SDA)
+sensor = adafruit_tmp006.TMP006(i2c) 
+
+<h4>"".py<h4>
+import time
+import board
+import busio
+import adafruit_tmp006
+ 
+# Define a function to convert celsius to fahrenheit.
+def c_to_f(c):
+    return c * 9.0 / 5.0 + 32.0
+ 
+# Create library object using our Bus I2C port
+i2c = busio.I2C(board.SCL, board.SDA)
+sensor = adafruit_tmp006.TMP006(i2c)
+ 
+# Initialize communication with the sensor, using the default 16 samples per conversion.
+# This is the best accuracy but a little slower at reacting to changes.
+# The first sample will be meaningless
+while True:
+    obj_temp = sensor.temperature
+    print('Object temperature: {0:0.3F}*C / {1:0.3F}*F'.format(obj_temp, c_to_f(obj_temp)))
+    time.sleep(5.0)    
+    
 <h4><b>Step 5: Building Your Case<b><h4> 
 <h4><b>Step 6: Production Testing <b><h4>  
