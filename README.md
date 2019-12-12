@@ -2,7 +2,7 @@
 
 
 
-<h4><b>Step 1: Acquireing Parts<b><h4>
+<h4><b>Step 1: Acquiring Parts<b><h4>
   
   Parts needed 
   - x4 Male-male connectors
@@ -18,27 +18,27 @@
 
 <h4><b>Step 2: Solderring and Assembly<b><h4>
   
-Let's begin with the TMP006 sensor. You should solder the headers to your sensor first so you can test it start by soldering placing your  headers on to a breadboard then plance your sensor on top. solder each pin for a good connection using your soldering iron and solder 
-you should have something that looks like whats below:
+Let's begin with the TMP006 sensor. You should solder the headers to your sensor first so you can test it start by soldering placing your headers on to a breadboard then place your sensor on top. solder each pin for a good connection using your soldering iron and solder 
+you should have something that looks like what's below:
 {completed TMP006}
-next you'll want to solder some sockets to the raspberry pi 
+next, you'll want to solder some sockets to the raspberry pi 
 {Completed Raspberry pi}
-and finally soder sokects for the top of your PCB and headers for the bottom the idea is to get the headers of the sensor to connect to the socket of the PCB and it's headers to connnect to the pi
+and finally solder sockets for the top of your PCB and headers for the bottom the idea is to get the headers of the sensor to connect to the socket of the PCB and its headers to connect to the pi
 {completed PCB}
 <h4><b>Step 3: Unit Testing<b><h4>
   
-next a unit test you'll need four male-male conectors of diffrent colours which you'll conncet 
+next a unit test you'll need four male-male connectors of different colours which you'll connect 
 - PI 3V3-> Sensor VCC
 - PI GND-> Sensor GND
 - PI SDA-> Sensor SDA
 - PI SCL-> Sensor SCL
-see pipout out below  
+see pinout out below  
 
 {pinout}
 {completed unit test}
 <h4><b>Step 4: Getting Tempreature <b><h4>
   
-to get tempreature your going to need your sd card. download rasbian form the raspberyy pi website{insert site here}, unzip and move the files onto your pi you'll want to download a few services on your you laptop if you are using one (the method used in these instructions) theses include: 
+to get temperature your going to need your sd card. download rasbian form the raspberry pi website{insert site here}, unzip and move the files onto your pi you'll want to download a few services on your you laptop if you are using one (the method used in these instructions) theses include: 
 - Bonjour print services
 - Ethcer 
 - 7zip
@@ -47,7 +47,7 @@ to get tempreature your going to need your sd card. download rasbian form the ra
 <h4>To setup these services to use a laptop<h4>
 
 - Open "config.txt" file with Notepad++
-- Scroll all the way down to the bottom
+- Scroll down to the bottom
 - Type "dtoverlay=dwc2" in the last line and then add an extra line after that
 - Save and close the file
 - Open "cmdline.txt" file with Notepad++
@@ -85,7 +85,7 @@ psk="YOURNETWORKPASSWORD"
 - Type "sudo wpa_cli reconfigure"
 
 <h4>Getting Adafruit Libraries <h4>
-The libraries nessary for this are located at https://circuitpython.org/libraries
+The libraries necessary for this are located at https://circuitpython.org/libraries
 
 You need to copy the following libraries out of the library bundle into your sd card:
 
@@ -99,10 +99,10 @@ h4>Enabling i2c and <h4>
 - sudo apt-get install python-smbus
 - sudo apt-get install i2c-tools
 
-once done you can test you i2c address by typing "sudo i2cdetect -y 0"
+once done you can test your i2c address by typing "sudo i2cdetect -y 0"
 
 <h4>Sensor Code<h4>
-  this is the code you will be detecting acutal tempreature with, you may name them whatever you like 
+  this is the code you will be detecting actual temperature with, you may name them whatever you like 
   
 <h4>"".py<h4>
 import board
@@ -136,18 +136,18 @@ while True:
     
 <h4><b>Step 5: Building Your Case<b><h4> 
   
-A case will require some designing since it is difficult to find raspberry pi zero w case that have side walls so following the instructions below will help with with that 
+A case will require some designing since it is difficult to find raspberry pi zero w case that has side walls so following the instructions below will help with that 
 
 - go to Makercase.com
-- Enter the dimensions of the system (Sensor,PCB,Pi)
+- Enter the dimensions of the system (Sensor, PCB, Pi)
 - Height: 35, Width: 35, Depth 65
 - Choose finger edge joints size 12 point design
 - Click "closed" as an answer to the "Open or closed box?" question
 - Click "Download Box Plans"
 
-Make sure you click inside to the question "Are these inside or outside dimensions?" so it will get the dimesnions onf the system and not include it in the enclosures design. the unit of measurement should be mm 
+Make sure you click inside to the question "Are these inside or outside dimensions?" so it will get the dimensions of the system and not include it in the design of the enclosure. the unit of measurement should be mm 
 
-next edit some holes like below do you can put an sd card and usb cable in the io ports
+next edit some holes like below do you can put an sd card and USB cable in the io ports
 {case schematic}
 
 <h4><b>Step 6: Production Testing <b><h4>  
