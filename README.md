@@ -20,12 +20,19 @@
   
 Let's begin with the TMP006 sensor. You should solder the headers to your sensor first so you can test it start by soldering placing your headers on to a breadboard then place your sensor on top. solder each pin for a good connection using your soldering iron and solder 
 you should have something that looks like what's below:
-[Completed TMP006](Read.meimages/IMG_20191211_154224.jpg)
+
+![Completed TMP006](Read.meimages/IMG_20191211_154224.jpg)
+
 next, you'll want to solder some sockets to the raspberry pi 
-[Completed Raspberry pi](Read.meimages/IMG_20191211_155439.jpg)
+
+![Completed Raspberry pi](Read.meimages/IMG_20191211_155439.jpg)
+
 and finally solder sockets for the top of your PCB and headers for the bottom the idea is to get the headers of the sensor to connect to the socket of the PCB and its headers to connect to the pi
-[completed PCB](Read.meimages/IMG_20191211_145450.jpg)
-[completed PCB](Read.meimages/IMG_20191211_145456.jpg)
+
+![completed PCB](Read.meimages/IMG_20191211_145450.jpg)
+
+![completed PCB](Read.meimages/IMG_20191211_145456.jpg)
+
 <h4><b>Step 3: Unit Testing<b><h4>
   
 next a unit test you'll need four male-male connectors of different colours which you'll connect 
