@@ -1,6 +1,6 @@
 # Smart-Watch-Temperature-Sensor
 
-
+![TMP006 sensor]C:\Users\solar\OneDrive\Documents\CENG 317\final images/)
 
 <h4><b>Step 1: Acquiring Parts<b><h4>
   
@@ -151,7 +151,8 @@ NOTE: Make sure you click inside to the question "Are these inside or outside di
 {case schematic}
 - Print your case 
 - Assemble and glue sides it should look like the following:
-{completed case}
+
+![completed case]C:\Users\solar\OneDrive\Documents\CENG 317\final images/IMG_20191211_145556.jpg)
 
 <h4><b>Step 6: Production Testing <b><h4>  
 
