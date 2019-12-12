@@ -20,11 +20,12 @@
   
 Let's begin with the TMP006 sensor. You should solder the headers to your sensor first so you can test it start by soldering placing your headers on to a breadboard then place your sensor on top. solder each pin for a good connection using your soldering iron and solder 
 you should have something that looks like what's below:
-{completed TMP006}
+[Completed TMP006](Read.meimages/IMG_20191211_154224.jpg)
 next, you'll want to solder some sockets to the raspberry pi 
-{Completed Raspberry pi}
+[Completed Raspberry pi](Read.meimages/IMG_20191211_155439.jpg)
 and finally solder sockets for the top of your PCB and headers for the bottom the idea is to get the headers of the sensor to connect to the socket of the PCB and its headers to connect to the pi
-{completed PCB}
+[completed PCB](Read.meimages/IMG_20191211_145450.jpg)
+[completed PCB](Read.meimages/IMG_20191211_145456.jpg)
 <h4><b>Step 3: Unit Testing<b><h4>
   
 next a unit test you'll need four male-male connectors of different colours which you'll connect 
@@ -34,8 +35,7 @@ next a unit test you'll need four male-male connectors of different colours whic
 - PI SCL-> Sensor SCL
 see pinout out below  
 
-{pinout}
-{completed unit test}
+[completed unit test](Read.meimages/IMG_20191211_180951.jpg)
 <h4><b>Step 4: Getting Tempreature<b><h4>
   
 to get temperature your going to need your sd card. download rasbian form the raspberry pi website{insert site here}, unzip and move the files onto your pi you'll want to download a few services on your you laptop if you are using one (the method used in these instructions) theses include: 
@@ -148,11 +148,11 @@ A case will require some designing since it is difficult to find raspberry pi ze
 NOTE: Make sure you click inside to the question "Are these inside or outside dimensions?" so it will get the dimensions of the system and not include it in the design of the enclosure. the unit of measurement should be mm 
 
 - next edit some holes like below do you can put an sd card and USB cable in the io ports
-[case schematic](Read.meimages/.jpg)
+[case schematic](Enclosure/enclosure.png)
 - Print your case 
 - Assemble and glue sides it should look like the following:
 
-![completed case](Enclosure/enclosure.png)
+![completed case](Read.meimages/IMG_20191211_145608.jpg)
 
 <h4><b>Step 6: Production Testing <b><h4>  
 
